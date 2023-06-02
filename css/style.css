@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: sans-serif;
+  background-color: rgb(249, 246, 246);
+}
+
+.container {
+  width: 800px;
+  border: 20px solid orange;
+  margin: 50px auto;
+}
+
+.form-header {
+  border: 10px solid blue;
+  /* margin: 10px; */
+  display: flex;
+  margin-bottom: 15px;
+}
+
+.main-heading {
+  font-size: 40px;
+  border: 15px solid red;
+  margin-top: 0px;
+}
+
+.main-paragraph {
+  margin-top: 0px;
+  border: 10px solid red;
+  /* line-height: 0.5; */
+}
+
+.section_1 {
+  border: 5px solid green;
+  margin-bottom: 15px;
+  padding-left: 10px;
+}
+
+.info-heading {
+  display: block;
+  font-size: 20px;
+  font-style: bold;
+  margin-bottom: 7px;
+  padding-left: 7px;
+}
+
+.info-flex-1 {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 10px;
+}
+
+.firstName,
+.middleName,
+.lastName {
+  width: 230px;
+  padding: 5px;
+}
+
+.info-flex-2 {
+  display: flex;
+  justify-content: space-around;
+  /* margin-bottom: 10px; */
+}
+
+.dob,
+.sid {
+  width: 362px;
+  padding: 5px;
+}
+
+.section_2 {
+  border: 5px solid green;
+  margin-bottom: 15px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.address-heading {
+  font-size: 20px;
+  display: block;
+  font-style: bold;
+  margin-bottom: 7px;
+  /* margin-bottom: 100px; */
+}
+
+.address {
+  width: 98%;
+  padding: 5px;
+}
+
+/* .add-flex-1 {
+  display: flex;
+  justify-content: space-around;
+} */
+
+/* .add-flex-1 {
+  display: flex;
+} */
+
+/* .add-flex-2 {
+  display: flex;
+}
+
+.course-flex-1 {
+  display: flex;
+} */

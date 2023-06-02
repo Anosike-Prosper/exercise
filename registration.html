@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <title>Student Registration Form</title>
+  </head>
+  <body>
+    <div class="container">
+      <header class="form-header">
+        <img
+          class="reg-img"
+          src="img/my-logo.png"
+          alt="Headshot of Laura-Jones"
+        />
+        <div class="main-header">
+          <h1 class="main-heading">Student Registrarion Form</h1>
+
+          <p class="main-paragraph">
+            Fill out the form to apply for the training courses. You can
+            consider your application accepted after you receive a confirmation
+            email
+          </p>
+        </div>
+      </header>
+
+      <section class="section_1">
+        <form action="">
+          <label class="info-heading">Student Information</label>
+          <div class="info-flex-1">
+            <input
+              type="text"
+              name="firstName"
+              id="firstName"
+              class="firstName"
+              placeholder="First Name"
+              required
+            />
+            <input
+              type="text"
+              name="middleName"
+              id="middleName"
+              class="middleName"
+              placeholder="Middle Name"
+            />
+            <input
+              type="text"
+              name="lastName"
+              id="lastName"
+              class="lastName"
+              placeholder="Last Name"
+            />
+          </div>
+          <div class="info-flex-2">
+            <input
+              type="date"
+              name="dob"
+              id="dob"
+              class="dob"
+              placeholder="Date of Birth"
+            />
+            <input
+              type="text"
+              name="sid"
+              id="sid"
+              class="sid"
+              placeholder="Student ID"
+            />
+          </div>
+        </form>
+      </section>
+
+      <section class="section_2">
+        <form action="">
+          <label class="address-heading">Address</label>
+          <div class="add-flex-1">
+            <input
+              type="text"
+              name="address"
+              id="address"
+              ,
+              class="address"
+              placeholder="Street Address"
+            />
+          </div>
+          <div class="add-flex-2">
+            <input type="text" name="city" id="" placeholder="City" />
+            <input
+              type="text"
+              name="state"
+              class="state"
+              id=""
+              placeholder="State/Province"
+            />
+          </div>
+          <div class="add-flex-2">
+            <input
+              type="text"
+              name="country"
+              class="country"
+              id=""
+              placeholder="Country"
+            />
+            <input
+              type="text"
+              name="zip"
+              id="zip"
+              class="zip"
+              placeholder="ZIP Code"
+            />
+          </div>
+        </form>
+      </section>
+
+      <section>
+        <form action="">
+          <h3>Contact Information</h3>
+          <input type="email" name="" id="" />
+          <input type="text" name="" id="" />
+        </form>
+      </section>
+
+      <section class="section-4">
+        <form action="">
+          <h3>Courses</h3>
+          <input type="button" value="+ Add new record" />
+          <div class="course-flex-1">
+            <select id="courseSelect" name="course">
+              <option value="course1">Course 1</option>
+              <option value="course2">Course 2</option>
+              <option value="course3">Course 3</option>
+              <!-- Add more options here -->
+            </select>
+
+            <select id="levelSelect" name="level">
+              <option value="beginner">Beginner</option>
+              <option value="intermediate">Intermediate</option>
+              <option value="advanced">Advanced</option>
+              <!-- Add more options here -->
+            </select>
+
+            <select id="languageSelect" name="language">
+              <option value="english">English</option>
+              <option value="spanish">Spanish</option>
+              <option value="french">French</option>
+              <!-- Add more options here -->
+            </select>
+
+            <input type="date" id="startDate" name="startDate" />
+          </div>
+
+          <textarea
+            name="message"
+            rows="10"
+            cols="30"
+            placeholder="Comments"
+          ></textarea>
+        </form>
+      </section>
+
+      <input type="button" value="SEND REQUEST" />
+    </div>
+  </body>
+</html>
